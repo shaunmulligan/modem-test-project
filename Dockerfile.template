@@ -7,4 +7,5 @@ RUN npm i server
 
 COPY . .
 
+ENV PORT=80
 CMD ["node", "index.js"]
