@@ -7,5 +7,5 @@ RUN npm i server
 
 COPY . .
 
-ENV PORT=80
+ENV PORT=80, LOG=debug
 CMD ["node", "index.js"]
