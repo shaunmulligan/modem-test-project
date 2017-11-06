@@ -1,6 +1,7 @@
 FROM resin/%%RESIN_MACHINE_NAME%%-node:slim
 
 COPY entry.sh /usr/bin/entry.sh 
+RUN chmod +x /usr/bin/entry.sh
 
 RUN npm i server
 
