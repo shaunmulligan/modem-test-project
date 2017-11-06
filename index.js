@@ -1,4 +1,4 @@
-const server = require('../../server');
+const server = require('server');
 const { get, post } = server.router;
 
 server([
